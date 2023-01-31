@@ -44,7 +44,7 @@ spec:
             10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,192.168.1.0/16
           hajimari.io/icon: mdi:align-vertical-top
         hosts:
-          - host: &host "goldilocks.${SECRRET_DOMAIN}"
+          - host: &host "goldilocks.${SECRET_DOMAIN}"
             paths:
               - path: /
                 type: Prefix
