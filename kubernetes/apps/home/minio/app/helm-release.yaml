@@ -94,7 +94,7 @@ spec:
           nginx.ingress.kubernetes.io/configuration-snippet: |
             chunked_transfer_encoding off;
         hosts:
-          - host: &host-api "s3.${SECRRET_DOMAIN}"
+          - host: &host-api "s3.${SECRET_DOMAIN}"
             paths:
               - path: /
                 pathType: Prefix
