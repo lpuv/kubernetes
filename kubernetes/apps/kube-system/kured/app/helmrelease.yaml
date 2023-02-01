@@ -46,7 +46,7 @@ spec:
       endTime: "5:00"
     image:
       repository: raspbernetes/kured
-      tag: 1.10.2
+      tag: 1.11.0
     service:
       create: true
     metrics:
