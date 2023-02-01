@@ -11,7 +11,7 @@ spec:
   storageClassName: minio-nfs
   persistentVolumeReclaimPolicy: Retain
   nfs:
-    server: ${SECRET_NFS_SERVER}
+    server: ${NFS_SERVER}
     path: /local-zfs/minio/
   mountOptions:
     - nfsvers=4.2
