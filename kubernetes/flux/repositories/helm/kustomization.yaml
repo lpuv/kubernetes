@@ -17,3 +17,4 @@ resources:
   - ./fairwinds.yaml
   - ./kubereboot.yaml
   - ./csi-driver-nfs-charts.yaml
+  - ./openebs.yaml
