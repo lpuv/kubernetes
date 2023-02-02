@@ -19,3 +19,4 @@ resources:
   - ./csi-driver-nfs-charts.yaml
   - ./openebs.yaml
   - ./deliveryhero-charts.yaml
+  - ./cloudnative-pg.yaml
