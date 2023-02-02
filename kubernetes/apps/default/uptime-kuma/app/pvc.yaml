@@ -11,7 +11,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-  storageClassName: nfs-csi
+  storageClassName: openebs-jiva-csi-sc
   resources:
     requests:
       storage: 1Gi
