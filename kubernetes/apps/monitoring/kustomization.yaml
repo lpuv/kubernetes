@@ -6,3 +6,4 @@ resources:
   - ./kubernetes-dashboard/ks.yaml
   - ./goldilocks/ks.yaml
   - ./vpa/ks.yaml
+  - ./node-problem-detector/ks.yaml

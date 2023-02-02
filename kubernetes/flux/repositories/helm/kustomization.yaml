@@ -18,3 +18,4 @@ resources:
   - ./kubereboot.yaml
   - ./csi-driver-nfs-charts.yaml
   - ./openebs.yaml
+  - ./deliveryhero-charts.yaml
