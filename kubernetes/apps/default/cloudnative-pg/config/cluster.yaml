@@ -3,14 +3,14 @@ apiVersion: postgresql.cnpg.io/v1
 kind: Cluster
 metadata:
   name: postgres
-  namespace: database
+  namespace: default
 spec:
   instances: 3
   imageName: ghcr.io/cloudnative-pg/postgresql:14.6
   primaryUpdateStrategy: unsupervised
   storage:
     size: 20Gi
-    storageClass: local-path
+    storageClass: openebs-jiva-csi-sc
   superuserSecret:
     name: postgres-superuser
   monitoring:
