@@ -8,3 +8,4 @@ resources:
   - ./uptime-kuma/ks.yaml
   - ./cloudnative-pg/ks.yaml
   - ./redis/ks.yaml
+  - ./dashy/ks.yaml
