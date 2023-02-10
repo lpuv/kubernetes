@@ -10,3 +10,4 @@ resources:
   - ./redis/ks.yaml
   - ./dashy/ks.yaml
   - ./whoogle/ks.yaml
+  - ./rancher/ks.yaml

@@ -20,3 +20,4 @@ resources:
   - ./openebs.yaml
   - ./deliveryhero-charts.yaml
   - ./cloudnative-pg.yaml
+  - ./rancher.yaml
